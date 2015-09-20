@@ -19,9 +19,7 @@ time, mark, audio, video {
     vertical-align: baseline;
     box-sizing: border-box;
 }
-/**
- * HTML5 display-role reset for older browsers
- */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -32,19 +30,10 @@ body {
 ol, ul {
     list-style: none;
 }
-/**
- * End of Reset
- */
-/**
- * Start of Custom Styles
- */
+
 body {
-    /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
-}
-div {
-    /*border: 1px solid Chocolate;*/
 }
 .content {
     padding: 0 0.938rem;
@@ -55,9 +44,6 @@ div {
     outline: none;
 }
 
-/**
- * Navigation Section
- */
 .top-navigation {
     background-color: #fff;
     position: fixed;
@@ -90,11 +76,8 @@ div {
     color: #333333;
 }
 
-/**
- * Introduction Section
- */
 .introduction {
-    background-image: url('background.jpg');
+    background-image: url('../img/background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,9 +98,6 @@ div {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
-/**
- * The buttons
- */
 .introduction .buttons {
     color: white;
     text-align: center;
@@ -132,9 +112,6 @@ div {
     line-height: 1.2;
 }
 
-/**
- * The Three Case Images
- */
 .cases {
     background-color: #fff;
     overflow: hidden;
@@ -165,9 +142,6 @@ div {
     font-size: 1.313rem;
 }
 
-/**
- * Footer
- */
 .social {
     background-color: #fff;
     overflow: auto;
@@ -207,40 +181,6 @@ div {
     color: #838994;
 }
 
-/**
- * Responsive Design
- */
-@media (min-width: 48rem) {
-    .content {
-        width: 46rem;
-    }
-}
-@media (min-width: 62rem) {
-    .content {
-        width: 60rem;
-    }
-}
-@media (min-width: 75rem) {
-    .content {
-        width: 60%;
-    }
-}
-
-/* Chrome, Safari, Opera */ 
-@-webkit-keyframes bounce {
-    0%, 100% {margin-top: 0px;}
-    50% {margin-top: 2rem;}
-}
-/* Standard syntax */ 
-@keyframes bounce {
-    0%, 100% {margin-top: 0px;}
-    50% {margin-top: 2rem;}
-}
-
-
-/**
- * button
- */
 button {
     width: 9.688rem;
     background-color: #f15a29;
